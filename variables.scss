@@ -1,0 +1,26 @@
+$vue-blue: #32485F;
+$vue-green: #00C185;
+
+
+
+
+// $themeColor: 	#ff8855; // nice orange
+$themeColor: #133668;
+$themeComplimentaryColour: #325382;
+$lightGrey: lightGrey;
+$veryLightGrey: #f6f6f6;
+
+// set default font and colour for entire app
+*{
+  line-height: 1.4;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $vue-blue;
+}
+
+.v--modal {
+  border-color: $themeColor;
+  border-width:2px;
+  border-radius: 10px;
+}
